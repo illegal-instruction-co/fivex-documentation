@@ -1,6 +1,4 @@
 - [Title Id](#title-id)
-...
-## Title Id
 
 ## **FiveX Library**
 A variable by the name `FiveX` will be available on your code execution.
@@ -186,3 +184,6 @@ FiveX.HookNative(0x048746E388762E11, function(originalResult)
   return originalResult
 end)
 ```
+
+...
+## Title Id
