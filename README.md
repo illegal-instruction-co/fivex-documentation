@@ -50,7 +50,7 @@ For HTML side check [this](https://raw.githubusercontent.com/illegal-instruction
 | -------- | ------------ | --------- |
 | BreakNative | Returns boolean. If native has been broken | integer |
 | RepairNative | Return boolean. If native has been repaired  | integer |
-| HookNative | Returns boolean. If native has been hooked | integer, function |
+| HookNative ( Beta ) | Returns boolean. If native has been hooked | integer, function |
 
 
 # **FiveX Library Usage**
