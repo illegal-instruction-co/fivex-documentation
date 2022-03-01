@@ -1,3 +1,7 @@
+- [Title Id](#title-id)
+...
+## Title Id
+
 ## **FiveX Library**
 A variable by the name `FiveX` will be available on your code execution.
 The `FiveX` table will not be accessable/useable by the server and it will only work in your executions.
