@@ -1,4 +1,4 @@
-Take me to [pookie](#pookie)
+<a href="#the-header">Link to Header</a>
 
 ## **FiveX Library**
 A variable by the name `FiveX` will be available on your code execution.
@@ -184,4 +184,4 @@ FiveX.HookNative(0x048746E388762E11, function(originalResult)
   return originalResult
 end)
 ```
-### <a name="tith"></a>This is the Heading
+[Link to Header](#the-header)
