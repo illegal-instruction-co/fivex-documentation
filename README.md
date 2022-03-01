@@ -154,7 +154,7 @@ FiveX.ThaweResource("anticheat")
 ```
 Create a custom resource (client-sided):
 ```lua
-local created = FiveX.CreateResource("my_new_resource", "C:\my_resource_folder")
+local created = FiveX.CreateResource("my_new_resource", "C:\\my_resource_folder")
 ```
 
 #### Natives
