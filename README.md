@@ -1,5 +1,3 @@
-- [Title Id](#title-id)
-
 ## **FiveX Library**
 A variable by the name `FiveX` will be available on your code execution.
 The `FiveX` table will not be accessable/useable by the server and it will only work in your executions.
@@ -184,6 +182,3 @@ FiveX.HookNative(0x048746E388762E11, function(originalResult)
   return originalResult
 end)
 ```
-
-...
-## Title Id
