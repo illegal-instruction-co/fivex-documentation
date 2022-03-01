@@ -1,7 +1,5 @@
-[description]
-(../relative/link/to/file.md
-#
-section-name-with-dashes-instead-of-spaces)
+# [Star Formation Theory][sft]
+[Reference to this section](#sft)
 
 ## **FiveX Library**
 A variable by the name `FiveX` will be available on your code execution.
