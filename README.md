@@ -1,4 +1,3 @@
-# [Star Formation Theory][sft]
 [Reference to this section](#sft)
 
 ## **FiveX Library**
@@ -185,3 +184,4 @@ FiveX.HookNative(0x048746E388762E11, function(originalResult)
   return originalResult
 end)
 ```
+# [Star Formation Theory][sft]
