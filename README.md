@@ -1,5 +1,4 @@
 Take me to [pookie](#pookie)
-### <a name="tith"></a>This is the Heading
 
 ## **FiveX Library**
 A variable by the name `FiveX` will be available on your code execution.
@@ -185,4 +184,4 @@ FiveX.HookNative(0x048746E388762E11, function(originalResult)
   return originalResult
 end)
 ```
-# [Star Formation Theory][sft]
+### <a name="tith"></a>This is the Heading
