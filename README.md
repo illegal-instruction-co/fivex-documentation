@@ -5,7 +5,7 @@ User documentation:
  - [How To](/documentation#how-to)
    - [Learning Client ID](/documentation#learning-client-id)
  
-# **FiveX API **
+# FiveX API 
 A variable by the name `FiveX` will be available on your code execution.
 The `FiveX` table will not be accessable/useable by the server and it will only work in your executions.
 
