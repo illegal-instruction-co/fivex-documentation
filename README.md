@@ -3,13 +3,13 @@ A variable by the name `FiveX` will be available on your code execution.
 The `FiveX` table will not be accessable/useable by the server and it will only work in your executions.
 
 Here's what it has to offer: 
-#### Identifiers
+#### [Identifiers](#identifiers-1)
 
 | Function | Description  | Arguments |
 | -------- | ------------ | --------- |
 | ID | Returns string. Your client-id | - |
 
-#### Network
+#### [Network](#network-1)
 
 | Function | Description  | Arguments |
 | -------- | ------------ | --------- |
@@ -18,7 +18,7 @@ Here's what it has to offer:
 | ChangePlayerName | Returns boolean. If name has been changed | string |
 | SendNetEvent | Returns boolean. If event was sent | string, string |
 
-#### Controls
+#### [Controls](#controls-1)
 
 | Function | Description  | Arguments |
 | -------- | ------------ | --------- |
@@ -37,7 +37,7 @@ For HTML side check [this](https://raw.githubusercontent.com/illegal-instruction
 | SendXuiMessage | Returns boolean. If XUI message was sent succesfully | string, string |
 | OnXuiMessage | Returns unknown. Listener for XUI | function |
 
-#### Resources
+#### [Resources](#resources-1)
 | Function | Description  | Arguments |
 | -------- | ------------ | --------- |
 | FreezeResource | Returns boolean. If resource has been frozen | string |
@@ -45,7 +45,7 @@ For HTML side check [this](https://raw.githubusercontent.com/illegal-instruction
 | InjectIntoScript | Returns boolean. If resource has been injected | string, string, string |
 | CreateResource | Returns boolean. If resource has been created | string, string |
 
-#### Natives
+#### [Natives](#natives-1)
 | Function | Description  | Arguments |
 | -------- | ------------ | --------- |
 | BreakNative | Returns boolean. If native has been broken | integer |
