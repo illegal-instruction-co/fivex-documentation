@@ -3,13 +3,13 @@ A variable by the name `FiveX` will be available on your code execution.
 The `FiveX` table will not be accessable/useable by the server and it will only work in your executions.
 
 Here's what it has to offer: 
-#### [Identifiers](#identifiers-1)
+### [Identifiers](#identifiers-1)
 
 | Function | Description  | Arguments |
 | -------- | ------------ | --------- |
 | ID | Returns string. Your client-id | - |
 
-#### [Network](#network-1)
+### [Network](#network-1)
 
 | Function | Description  | Arguments |
 | -------- | ------------ | --------- |
@@ -18,7 +18,7 @@ Here's what it has to offer:
 | ChangePlayerName | Returns boolean. If name has been changed | string |
 | SendNetEvent | Returns boolean. If event was sent | string, string |
 
-#### [Controls](#controls-1)
+### [Controls](#controls-1)
 
 | Function | Description  | Arguments |
 | -------- | ------------ | --------- |
@@ -27,7 +27,7 @@ Here's what it has to offer:
 | IsKeyHeld | Returns boolean. If key is being held | int |
 | SimulateKeyPress | Returns boolean. If key has been simulated | int |
 
-#### [XUI](#xui-1)
+### [XUI](#xui-1)
 E**X**ternal **U**ser **I**nterface supports the usage of HTML, CSS and JavaScript.
 For HTML side check [this](https://raw.githubusercontent.com/illegal-instruction-co/text-xui/main/the.html).
 | Function | Description  | Arguments |
@@ -37,7 +37,7 @@ For HTML side check [this](https://raw.githubusercontent.com/illegal-instruction
 | SendXuiMessage | Returns boolean. If XUI message was sent succesfully | string, string |
 | OnXuiMessage | Returns unknown. Listener for XUI | function |
 
-#### [Resources](#resources-1)
+### [Resources](#resources-1)
 | Function | Description  | Arguments |
 | -------- | ------------ | --------- |
 | FreezeResource | Returns boolean. If resource has been frozen | string |
@@ -45,7 +45,7 @@ For HTML side check [this](https://raw.githubusercontent.com/illegal-instruction
 | InjectIntoScript | Returns boolean. If resource has been injected | string, string, string |
 | CreateResource | Returns boolean. If resource has been created | string, string |
 
-#### [Natives](#natives-1)
+### [Natives](#natives-1)
 | Function | Description  | Arguments |
 | -------- | ------------ | --------- |
 | BreakNative | Returns boolean. If native has been broken | integer |
@@ -55,13 +55,13 @@ For HTML side check [this](https://raw.githubusercontent.com/illegal-instruction
 
 # **FiveX Library Usage**
 
-#### Identifiers
+### Identifiers
 ```lua
 local client_id = FiveX.ID()
 print(client_id) --[[will print our client id]]
 ```
   
-#### Network
+### Network
 Change our in-game/display name to `Yeetus`:
 ```lua
 FiveX.ChangePlayerName("Yeetus")
@@ -83,7 +83,7 @@ FiveX.HttpPost("https://google.com", json.encode({ somedata = "somedata"}), func
 end)
 ```
 
-#### Controls
+### Controls
 Check virtual key codes [here](https://docs.microsoft.com/en-us/windows/win32/inputdev/virtual-key-codes).
 If key pressed we will use this: `FiveX.IsKeyPressed`
 If key released we will use this: `FiveX.IsKeyReleased`
@@ -112,7 +112,7 @@ Citizen.CreateThread(function()
 end)
 ```
 
-#### XUI
+### XUI
 Draw a little crosshair using XUI, credits to `Xternal-Crosshair`:
 ```lua
 local screenWidth, screenHeight = GetActiveScreenResolution()
@@ -136,7 +136,7 @@ if (FiveX.DestroyXui(xuiHandle)) then
 end
 ```
 
-#### Resources
+### Resources
 Inject into a resource, with access to the resource's global & local variabless:
 (This can be used to inject NUI, CSS or JavaScript)
 ```lua
@@ -157,7 +157,7 @@ Create a custom resource (client-sided):
 local created = FiveX.CreateResource("my_new_resource", "C:\my_resource_folder")
 ```
 
-#### Natives
+### Natives
 [FiveM Natives](https://docs.fivem.net/natives/)
 
 Break a native:
