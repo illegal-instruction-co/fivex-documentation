@@ -27,6 +27,9 @@ Here's what it has to offer:
    - [Natives](/documentation#natives-1)
 
 
+# FiveX How to
+### Learning Client ID
+
 # FiveX Functions
 ### Identifiers
 
