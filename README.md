@@ -1,15 +1,33 @@
-## **FiveX Library**
+# **FiveX**
 A variable by the name `FiveX` will be available on your code execution.
 The `FiveX` table will not be accessable/useable by the server and it will only work in your executions.
 
 Here's what it has to offer: 
-### [Identifiers](#identifiers-1)
+
+ - [Functions](#fivex-functions)
+  - [Identifiers](#identifiers)
+  - [Network](#network)
+  - [Controls](#controls)
+  - [XUI](#xui)
+  - [Resources](#resources)
+  - [Natives](#natives)
+ - [Functions Usage](#fivex-functions-usage)
+  - [Identifiers](#identifiers-1)
+  - [Network](#network-1)
+  - [Controls](#controls-1)
+  - [XUI](#xui-1)
+  - [Resources](#resources-1)
+  - [Natives](#natives-1)
+
+
+# **FiveX Functions**
+### Identifiers
 
 | Function | Description  | Arguments |
 | -------- | ------------ | --------- |
 | ID | Returns string. Your client-id | - |
 
-### [Network](#network-1)
+### Network
 
 | Function | Description  | Arguments |
 | -------- | ------------ | --------- |
@@ -18,7 +36,7 @@ Here's what it has to offer:
 | ChangePlayerName | Returns boolean. If name has been changed | string |
 | SendNetEvent | Returns boolean. If event was sent | string, string |
 
-### [Controls](#controls-1)
+### Controls
 
 | Function | Description  | Arguments |
 | -------- | ------------ | --------- |
@@ -27,7 +45,7 @@ Here's what it has to offer:
 | IsKeyHeld | Returns boolean. If key is being held | int |
 | SimulateKeyPress | Returns boolean. If key has been simulated | int |
 
-### [XUI](#xui-1)
+### XUI
 E**X**ternal **U**ser **I**nterface supports the usage of HTML, CSS and JavaScript.
 For HTML side check [this](https://raw.githubusercontent.com/illegal-instruction-co/text-xui/main/the.html).
 | Function | Description  | Arguments |
@@ -37,7 +55,7 @@ For HTML side check [this](https://raw.githubusercontent.com/illegal-instruction
 | SendXuiMessage | Returns boolean. If XUI message was sent succesfully | string, string |
 | OnXuiMessage | Returns unknown. Listener for XUI | function |
 
-### [Resources](#resources-1)
+### Resources
 | Function | Description  | Arguments |
 | -------- | ------------ | --------- |
 | FreezeResource | Returns boolean. If resource has been frozen | string |
@@ -45,7 +63,7 @@ For HTML side check [this](https://raw.githubusercontent.com/illegal-instruction
 | InjectIntoScript | Returns boolean. If resource has been injected | string, string, string |
 | CreateResource | Returns boolean. If resource has been created | string, string |
 
-### [Natives](#natives-1)
+### Natives
 | Function | Description  | Arguments |
 | -------- | ------------ | --------- |
 | BreakNative | Returns boolean. If native has been broken | integer |
@@ -53,7 +71,7 @@ For HTML side check [this](https://raw.githubusercontent.com/illegal-instruction
 | HookNative | Returns boolean. If native has been hooked | integer, function |
 
 
-# **FiveX Library Usage**
+# **FiveX Functions Usage**
 
 ### Identifiers
 ```lua
