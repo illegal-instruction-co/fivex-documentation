@@ -4,20 +4,20 @@ The `FiveX` table will not be accessable/useable by the server and it will only 
 
 Here's what it has to offer: 
 
- - [Functions](#fivex-functions)
-   - [Identifiers](#identifiers)
-   - [Network](#network)
-   - [Controls](#controls)
-   - [XUI](#xui)
-   - [Resources](#resources)
-   - [Natives](#natives)
- - [Functions Usage](#fivex-functions-usage)
-   - [Identifiers](#identifiers-1)
-   - [Network](#network-1)
-   - [Controls](#controls-1)
-   - [XUI](#xui-1)
-   - [Resources](#resources-1)
-   - [Natives](#natives-1)
+ - [Functions](/documentation#fivex-functions)
+   - [Identifiers](/documentation#identifiers)
+   - [Network](/documentation#network)
+   - [Controls](/documentation#controls)
+   - [XUI](/documentation#xui)
+   - [Resources](/documentation#resources)
+   - [Natives](/documentation#natives)
+ - [Functions Usage](/documentation#fivex-functions-usage)
+   - [Identifiers](/documentation#identifiers-1)
+   - [Network](/documentation#network-1)
+   - [Controls](/documentation#controls-1)
+   - [XUI](/documentation#xui-1)
+   - [Resources](/documentation#resources-1)
+   - [Natives](/documentation#natives-1)
 
 
 # **FiveX Functions**
