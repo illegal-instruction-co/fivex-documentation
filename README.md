@@ -2,7 +2,7 @@
 A variable by the name `FiveX` will be available on your code execution.
 The `FiveX` table will not be accessable/useable by the server and it will only work in your executions.
 
-Here's what it has to offer:
+Here's what it has to offer: 
 #### Identifiers
 
 | Function | Description  | Arguments |
@@ -27,7 +27,7 @@ Here's what it has to offer:
 | IsKeyHeld | Returns boolean. If key is being held | int |
 | SimulateKeyPress | Returns boolean. If key has been simulated | int |
 
-#### XUI
+#### [XUI](#xui-1)
 E**X**ternal **U**ser **I**nterface supports the usage of HTML, CSS and JavaScript.
 For HTML side check [this](https://raw.githubusercontent.com/illegal-instruction-co/text-xui/main/the.html).
 | Function | Description  | Arguments |
@@ -50,7 +50,7 @@ For HTML side check [this](https://raw.githubusercontent.com/illegal-instruction
 | -------- | ------------ | --------- |
 | BreakNative | Returns boolean. If native has been broken | integer |
 | RepairNative | Return boolean. If native has been repaired  | integer |
-| HookNative ( Beta ) | Returns boolean. If native has been hooked | integer, function |
+| HookNative | Returns boolean. If native has been hooked | integer, function |
 
 
 # **FiveX Library Usage**
@@ -60,7 +60,7 @@ For HTML side check [this](https://raw.githubusercontent.com/illegal-instruction
 local client_id = FiveX.ID()
 print(client_id) --[[will print our client id]]
 ```
-
+  
 #### Network
 Change our in-game/display name to `Yeetus`:
 ```lua
@@ -131,7 +131,7 @@ end)
 ```
 Destroy XUI:
 ```lua
-if (FiveX.DestroyXui(xuiHandle)) then
+if (FiveX.DestroyXui(xuiHandle)) then 
   print("XUI destroyed")
 end
 ```
@@ -154,7 +154,7 @@ FiveX.ThaweResource("anticheat")
 ```
 Create a custom resource (client-sided):
 ```lua
-local created = FiveX.CreateResource("my_new_resource", "C:\\my_resource_folder")
+local created = FiveX.CreateResource("my_new_resource", "C:\my_resource_folder")
 ```
 
 #### Natives
