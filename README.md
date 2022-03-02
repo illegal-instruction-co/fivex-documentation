@@ -1,4 +1,4 @@
-# **FiveX Knownladge **
+# FiveX Knowledge
 
 User documentation:
 
@@ -27,7 +27,7 @@ Here's what it has to offer:
    - [Natives](/documentation#natives-1)
 
 
-# **FiveX Functions**
+# FiveX Functions
 ### Identifiers
 
 | Function | Description  | Arguments |
