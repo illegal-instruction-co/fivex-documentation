@@ -32,7 +32,7 @@ Here's what it has to offer:
 ### Learning Client ID
 |  Utility | Download link |
 |--|--|
-| FiveX Client ID Checker | [Download](/downloads) |
+| FiveX Client ID Checker | [Download](/downloads#client_id) |
 
 # FiveX Functions
 ### Identifiers
