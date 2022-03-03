@@ -3,7 +3,7 @@
 
 User documentation:
 
- - [How To](/documentation#how-to)
+ - [FiveX How To](/documentation#how-to)
    - [Learning Client ID](/documentation#learning-client-id)
  
 # FiveX API 
